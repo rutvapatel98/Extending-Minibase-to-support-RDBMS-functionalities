@@ -1,0 +1,430 @@
+riya@Riyas-MacBook-Pro DBMSI %  /usr/bin/env /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:53421 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/riya/Library/Application Support/Code/User/workspaceStorage/bafbc90d68bee34d4b035f9adf7c4690/redhat.java/jdt_ws/DBMSI_513b6294/bin" testsphase3.final_integrate 
+Enter query: 
+open_database finaltest
+
+Query: open_database finaltest
+Replacer: Clock
+
+Database didnt exist
+
+-------------------------------------------------
+Enter query: 
+create_table r_sii2000_1_75_200.csv
+
+Query: create_table r_sii2000_1_75_200.csv
+STR+INT+INT___NAME+AGE+WEIGHT
+Finished creating table
+1999
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MAX 1 2 r_sii2000_1_75_200 20
+
+Query: GROUPBY SORT MAX 1 2 r_sii2000_1_75_200 20
+[1aaaaaaaa, 75, 175]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MIN 1 2 r_sii2000_1_75_200 20
+
+Query: GROUPBY SORT MIN 1 2 r_sii2000_1_75_200 20
+[1aaaaaaaa, 1, 70]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT AVG 1 2 r_sii2000_1_75_200 20
+
+Query: GROUPBY SORT AVG 1 2 r_sii2000_1_75_200 20
+[1aaaaaaaa, 38.731865]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT SKY 1 2 3 r_sii2000_1_75_200 20
+
+Query: GROUPBY SORT SKY 1 2 3 r_sii2000_1_75_200 20
+[1aaaaaaaa, 75, 175]
+[1aaaaaaaa, 67, 200]
+[1aaaaaaaa, 74, 194]
+[1aaaaaaaa, 72, 198]
+[1aaaaaaaa, 75, 175]
+
+-------------------------------------------------
+riya@Riyas-MacBook-Pro DBMSI %  /usr/bin/env /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:53491 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/riya/Library/Application Support/Code/User/workspaceStorage/bafbc90d68bee34d4b035f9adf7c4690/redhat.java/jdt_ws/DBMSI_513b6294/bin" testsphase3.final_integrate 
+Enter query: 
+open_database finaltest 
+
+Query: open_database finaltest
+Replacer: Clock
+
+Database exists
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MAX 1 2 r_sii2000_10_10_10_dup_inv 20
+
+Query: GROUPBY SORT MAX 1 2 r_sii2000_10_10_10_dup_inv 20
+[10aaaaaaaa, 10, 0]
+[9aaaaaaaa, 9, 1]
+[8aaaaaaaa, 8, 2]
+[7aaaaaaaa, 7, 3]
+[6aaaaaaaa, 6, 4]
+[5aaaaaaaa, 5, 5]
+[4aaaaaaaa, 4, 6]
+[3aaaaaaaa, 3, 7]
+[2aaaaaaaa, 2, 8]
+[1aaaaaaaa, 1, 9]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MIN 1 2 r_sii2000_10_10_10_dup_inv 20
+
+Query: GROUPBY SORT MIN 1 2 r_sii2000_10_10_10_dup_inv 20
+[10aaaaaaaa, 10, 0]
+[9aaaaaaaa, 9, 1]
+[8aaaaaaaa, 8, 2]
+[7aaaaaaaa, 7, 3]
+[6aaaaaaaa, 6, 4]
+[5aaaaaaaa, 5, 5]
+[4aaaaaaaa, 4, 6]
+[3aaaaaaaa, 3, 7]
+[2aaaaaaaa, 2, 8]
+[1aaaaaaaa, 1, 9]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT AVG 1 2 r_sii2000_10_10_10_dup_inv 20
+
+Query: GROUPBY SORT AVG 1 2 r_sii2000_10_10_10_dup_inv 20
+
+[10aaaaaaaa, 10.0]
+[9aaaaaaaa, 9.0]
+[8aaaaaaaa, 8.0]
+[7aaaaaaaa, 7.0]
+[6aaaaaaaa, 6.0]
+[5aaaaaaaa, 5.0]
+[4aaaaaaaa, 4.0]
+[3aaaaaaaa, 3.0]
+[2aaaaaaaa, 2.0]
+[1aaaaaaaa, 1.0]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT SKY 1 2 3 r_sii2000_10_10_10_dup_inv 20
+
+Query: GROUPBY SORT SKY 1 2 3 r_sii2000_10_10_10_dup_inv 20
+[10aaaaaaaa, 10, 0]
+[9aaaaaaaa, 9, 1]
+[8aaaaaaaa, 8, 2]
+[7aaaaaaaa, 7, 3]
+[6aaaaaaaa, 6, 4]
+[5aaaaaaaa, 5, 5]
+[4aaaaaaaa, 4, 6]
+[3aaaaaaaa, 3, 7]
+[2aaaaaaaa, 2, 8]
+[1aaaaaaaa, 1, 9]
+
+-------------------------------------------------
+riya@Riyas-MacBook-Pro DBMSI %  /usr/bin/env /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:53568 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/riya/Library/Application Support/Code/User/workspaceStorage/bafbc90d68bee34d4b035f9adf7c4690/redhat.java/jdt_ws/DBMSI_513b6294/bin" testsphase3.final_integrate 
+Enter query: 
+open_database finaltest
+
+Query: open_database finaltest
+Replacer: Clock
+
+Database exists
+
+-------------------------------------------------
+Enter query: 
+create_table r_sii2000_10_10_10_dup.csv
+
+Query: create_table r_sii2000_10_10_10_dup.csv
+STR+INT+INT___NAME+AGE+WEIGHT
+Finished creating table
+1999
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MAX 1 2 r_sii2000_10_10_10_dup 20 
+
+Query: GROUPBY SORT MAX 1 2 r_sii2000_10_10_10_dup 20
+[10aaaaaaaa, 10, 10]
+[9aaaaaaaa, 9, 9]
+[8aaaaaaaa, 8, 8]
+[7aaaaaaaa, 7, 7]
+[6aaaaaaaa, 6, 6]
+[5aaaaaaaa, 5, 5]
+[4aaaaaaaa, 4, 4]
+[3aaaaaaaa, 3, 3]
+[2aaaaaaaa, 2, 2]
+[1aaaaaaaa, 1, 1]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MIN 1 2 r_sii2000_10_10_10_dup 20
+
+Query: GROUPBY SORT MIN 1 2 r_sii2000_10_10_10_dup 20
+[10aaaaaaaa, 10, 10]
+[9aaaaaaaa, 9, 9]
+[8aaaaaaaa, 8, 8]
+[7aaaaaaaa, 7, 7]
+[6aaaaaaaa, 6, 6]
+[5aaaaaaaa, 5, 5]
+[4aaaaaaaa, 4, 4]
+[3aaaaaaaa, 3, 3]
+[2aaaaaaaa, 2, 2]
+[1aaaaaaaa, 1, 1]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT AVG 1 2 r_sii2000_10_10_10_dup 20
+
+Query: GROUPBY SORT AVG 1 2 1 2 r_sii2000_10_10_10_dup 20
+[10aaaaaaaa, 10.0]
+[9aaaaaaaa, 9.0]
+[8aaaaaaaa, 8.0]
+[7aaaaaaaa, 7.0]
+[6aaaaaaaa, 6.0]
+[5aaaaaaaa, 5.0]
+[4aaaaaaaa, 4.0]
+[3aaaaaaaa, 3.0]
+[2aaaaaaaa, 2.0]
+[1aaaaaaaa, 1.0]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT SKY 1 2 r_sii2000_10_10_10_dup 20 
+
+Query: GROUPBY SORT SKY 1 2 r_sii2000_10_10_10_dup 20
+[10aaaaaaaa, 10, 10]
+[9aaaaaaaa, 9, 9]
+[8aaaaaaaa, 8, 8]
+[7aaaaaaaa, 7, 7]
+[6aaaaaaaa, 6, 6]
+[5aaaaaaaa, 5, 5]
+[4aaaaaaaa, 4, 4]
+[3aaaaaaaa, 3, 3]
+[2aaaaaaaa, 2, 2]
+[1aaaaaaaa, 1, 1]
+
+-------------------------------------------------
+Enter query: 
+
+riya@Riyas-MacBook-Pro DBMSI %  /usr/bin/env /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:53624 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/riya/Library/Application Support/Code/User/workspaceStorage/bafbc90d68bee34d4b035f9adf7c4690/redhat.java/jdt_ws/DBMSI_513b6294/bin" testsphase3.final_integrate 
+Enter query: 
+open_database finaltest
+
+Query: open_database finaltest
+Replacer: Clock
+
+Database exists
+
+-------------------------------------------------
+Enter query: 
+create_table r_sii2000_10_10_10.csv
+
+Query: create_table r_sii2000_10_10_10.csv
+STR+INT+INT___NAME+AGE+WEIGHT
+Finished creating table
+1999
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MAX 1 2 r_sii2000_10_10_10 20
+
+Query: GROUPBY SORT MAX 1 2 r_sii2000_10_10_10 20
+[10aaaaaaaa, 10, 8]
+[9aaaaaaaa, 10, 3]
+[8aaaaaaaa, 10, 7]
+[7aaaaaaaa, 10, 5]
+[6aaaaaaaa, 10, 9]
+[5aaaaaaaa, 10, 3]
+[4aaaaaaaa, 10, 9]
+[3aaaaaaaa, 10, 8]
+[2aaaaaaaa, 10, 3]
+[1aaaaaaaa, 10, 2]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MIN 1 2 r_sii2000_10_10_10 20
+
+Query: GROUPBY SORT MIN 1 2 r_sii2000_10_10_10 20
+[10aaaaaaaa, 1, 6]
+[1aaaaaaaa, 1, 10]
+[2aaaaaaaa, 1, 6]
+[3aaaaaaaa, 1, 8]
+[4aaaaaaaa, 1, 10]
+[5aaaaaaaa, 1, 9]
+[6aaaaaaaa, 1, 7]
+[7aaaaaaaa, 1, 8]
+[8aaaaaaaa, 1, 10]
+[9aaaaaaaa, 1, 4]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT AVG 1 2 r_sii2000_10_10_10 20
+
+Query: GROUPBY SORT AVG 1 2 r_sii2000_10_10_10 20
+[10aaaaaaaa, 5.5148516]
+[1aaaaaaaa, 5.101523]
+[2aaaaaaaa, 5.457143]
+[3aaaaaaaa, 5.516667]
+[4aaaaaaaa, 5.6853447]
+[5aaaaaaaa, 5.219512]
+[6aaaaaaaa, 5.5945945]
+[7aaaaaaaa, 5.2352943]
+[8aaaaaaaa, 5.6039605]
+[9aaaaaaaa, 5.6485147]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT SKY 1 2 3 r_sii2000_10_10_10 20
+
+Query: GROUPBY SORT SKY 1 2 3 r_sii2000_10_10_10 20
+[10aaaaaaaa, 10, 10]
+[10aaaaaaaa, 10, 10]
+[10aaaaaaaa, 10, 10]
+[9aaaaaaaa, 10, 10]
+[9aaaaaaaa, 10, 10]
+[8aaaaaaaa, 10, 10]
+[7aaaaaaaa, 9, 10]
+[7aaaaaaaa, 10, 9]
+[7aaaaaaaa, 10, 9]
+[6aaaaaaaa, 10, 10]
+[6aaaaaaaa, 10, 10]
+[6aaaaaaaa, 10, 10]
+[5aaaaaaaa, 10, 10]
+[4aaaaaaaa, 10, 10]
+[4aaaaaaaa, 10, 10]
+[4aaaaaaaa, 10, 10]
+[3aaaaaaaa, 10, 10]
+[3aaaaaaaa, 10, 10]
+[2aaaaaaaa, 10, 10]
+[1aaaaaaaa, 10, 10]
+[1aaaaaaaa, 10, 10]
+
+-------------------------------------------------
+Enter query: 
+
+riya@Riyas-MacBook-Pro DBMSI %  /usr/bin/env /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:53624 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/riya/Library/Application Support/Code/User/workspaceStorage/bafbc90d68bee34d4b035f9adf7c4690/redhat.java/jdt_ws/DBMSI_513b6294/bin" testsphase3.final_integrate 
+Enter query: 
+open_database finaltest
+
+Query: open_database finaltest
+Replacer: Clock
+
+Database exists
+
+-------------------------------------------------
+Enter query: 
+create_table r_sii2000_10_75_200.csv
+
+Query: create_table r_sii2000_10_75_200.csv
+STR+INT+INT___NAME+AGE+WEIGHT
+Finished creating table
+1999
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MAX 1 2 r_sii2000_10_75_200 20
+
+Query: GROUPBY SORT MAX 1 2 r_sii2000_10_75_200 20
+[10aaaaaaaa, 75, 68]
+[1aaaaaaaa, 75, 66]
+[2aaaaaaaa, 75, 101]
+[3aaaaaaaa, 75, 78]
+[4aaaaaaaa, 75, 47]
+[5aaaaaaaa, 75, 14]
+[6aaaaaaaa, 75, 49]
+[7aaaaaaaa, 75, 86]
+[8aaaaaaaa, 75, 38]
+[9aaaaaaaa, 75, 18]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT MIN 1 2 r_sii2000_10_75_200 20
+
+Query: GROUPBY SORT MIN 1 2 r_sii2000_10_75_200 20
+[10aaaaaaaa, 1, 74]
+[1aaaaaaaa, 1, 129]
+[2aaaaaaaa, 1, 182]
+[3aaaaaaaa, 1, 137]
+[4aaaaaaaa, 1, 86]
+[5aaaaaaaa, 1, 176]
+[6aaaaaaaa, 1, 12]
+[7aaaaaaaa, 1, 155]
+[8aaaaaaaa, 1, 26]
+[9aaaaaaaa, 1, 131]
+
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT AVG 1 2 r_sii2000_10_75_200 20
+
+Query: GROUPBY SORT AVG 1 2 r_sii2000_10_75_200 20
+[10aaaaaaaa, 36.50909]
+[1aaaaaaaa, 38.04787]
+[2aaaaaaaa, 38.504547]
+[3aaaaaaaa, 38.81818]
+[4aaaaaaaa, 37.295]
+[5aaaaaaaa, 36.701424]
+[6aaaaaaaa, 37.11795]
+[7aaaaaaaa, 38.434147]
+[8aaaaaaaa, 38.89011]
+[9aaaaaaaa, 36.026318]
+-------------------------------------------------
+Enter query: 
+GROUPBY SORT SKY 1 2 3 r_sii2000_10_75_200 20
+
+Query: GROUPBY SORT SKY 1 2 3 r_sii2000_10_75_200 20
+[10aaaaaaaa, 75, 68]
+[10aaaaaaaa, 43, 200]
+[10aaaaaaaa, 51, 198]
+[10aaaaaaaa, 55, 190]
+[10aaaaaaaa, 70, 189]
+[10aaaaaaaa, 74, 107]
+[10aaaaaaaa, 73, 180]
+[9aaaaaaaa, 73, 100]
+[9aaaaaaaa, 70, 155]
+[9aaaaaaaa, 75, 99]
+[9aaaaaaaa, 71, 119]
+[9aaaaaaaa, 72, 117]
+[9aaaaaaaa, 68, 185]
+[9aaaaaaaa, 73, 100]
+[9aaaaaaaa, 54, 200]
+[8aaaaaaaa, 75, 182]
+[8aaaaaaaa, 66, 200]
+[7aaaaaaaa, 61, 200]
+[7aaaaaaaa, 74, 195]
+[7aaaaaaaa, 72, 198]
+[7aaaaaaaa, 75, 86]
+[6aaaaaaaa, 59, 195]
+[6aaaaaaaa, 74, 182]
+[6aaaaaaaa, 74, 182]
+[6aaaaaaaa, 71, 183]
+[6aaaaaaaa, 75, 114]
+[6aaaaaaaa, 3, 198]
+[6aaaaaaaa, 21, 197]
+[5aaaaaaaa, 68, 196]
+[5aaaaaaaa, 72, 69]
+[5aaaaaaaa, 71, 154]
+[5aaaaaaaa, 75, 59]
+[4aaaaaaaa, 72, 162]
+[4aaaaaaaa, 15, 199]
+[4aaaaaaaa, 71, 190]
+[4aaaaaaaa, 54, 196]
+[4aaaaaaaa, 74, 100]
+[4aaaaaaaa, 59, 193]
+[4aaaaaaaa, 75, 47]
+[3aaaaaaaa, 75, 78]
+[3aaaaaaaa, 74, 157]
+[3aaaaaaaa, 68, 188]
+[3aaaaaaaa, 64, 196]
+[3aaaaaaaa, 41, 200]
+[2aaaaaaaa, 75, 101]
+[2aaaaaaaa, 74, 200]
+[1aaaaaaaa, 67, 200]
+[1aaaaaaaa, 75, 155]
+[1aaaaaaaa, 74, 199]
+
+-------------------------------------------------
+
+

@@ -1,0 +1,21 @@
+Enter query: 
+
+Query: open_database yui
+Replacer: Clock
+
+Database didnt exist
+
+-------------------------------------------------
+Enter query: 
+
+Query: create_table CLUSTERED BTREE 3 r_sii2000_1_75_200.csv
+STR+INT+INT___NAME+AGE+WEIGHT
+Finished creating table
+1999
+
+Created Clustered Index
+Number of Reads: 251
+Number of Writes: 554
+
+-------------------------------------------------
+Enter query: 

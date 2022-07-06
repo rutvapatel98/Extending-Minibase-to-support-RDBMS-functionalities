@@ -1,0 +1,13 @@
+(base) rutvapatel98@Rutvas-MacBook-Pro minibase_s21-main %  cd /Users/rutvapatel98/Desktop/minibase_s21-main ; /usr/bin/env /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:56837 -Dfile.encoding=UTF-8 -cp "/Users/rutvapatel98/Library/Application Support/Code/User/workspaceStorage/e980c462caea84462a4235152cac30d4/redhat.java/jdt_ws/minibase_s21-main_d15450ec/bin" tests.HashIndextest 
+/tmp/task2rutvapatel98.minibase-db
+Replacer: Clock
+
+Records in Data file: 1999
+clustered hash index
+Insert records using linear hashing
+Insert the records
+Insertion done successfully
+
+clustered hash index
+Deletion done on clustered only
+Deletion done successfully
