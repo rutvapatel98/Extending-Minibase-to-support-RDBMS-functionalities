@@ -1,0 +1,17 @@
+\f0\fs24 \cf0 riya@Riyas-MacBook-Pro DBMSI %  /usr/bin/env /Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/riya/Library/Application Support/Code/User/workspaceStorage/bafbc90d68bee34d4b035f9adf7c4690/redhat.java/jdt_ws/DBMSI_513b6294/bin" skyline.task33file2 \
+/tmp/task6riya.minibase-db\
+Replacer: Clock
+
+7308
+Replacer: Clock
+
+/tmp/task6riya.minibase-db
+Replacer: Clock
+
+7308
+----------------------------------DATA FILE 2 PAGE SIZE 1024--------------------------------------- \
+n_pages = 115 and preference attributes = 1\
+0.9998925 0.20947415 0.1958033 0.61646307 0.5625772\
+Number of reads: 0 
+Number of writes: 0 
+riya@Riyas-MacBook-Pro DBMSI % }

@@ -1,0 +1,11 @@
+/tmp/task6riya.minibase-db
+Replacer: Clock
+
+/tmp/task6riya.minibase-db
+Replacer: Clock
+
+----------------------------------DATA FILE 2 PAGE SIZE 128--------------------------------------- 
+n_pages = 10 and preference attributes = 1
+0.9998925 0.20947415 0.1958033 0.61646307 0.5625772
+Number of reads: 20055385 
+Number of writes: 14301 
